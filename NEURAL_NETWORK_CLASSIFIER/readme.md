@@ -1,1 +1,4 @@
-To run the tests, make sure to run this in Google Collab and to make a folder named 'DATA' to save the graph metrics.
+#BEFORE DOWNLOADING THE JUPYTER NOTEBOOK
+Make a folder named 'Data', and load the corresponding data for the specific notebook.
+
+
