@@ -1,3 +1,4 @@
 # TIME SERIES APPROACH FOR KEPLER DATA
 
-This approach involves using Kepler Lightcurves to create a time series classification model capable of predicting whether or not a planet (or several) is orbitting around a given star
+This is a link to the github gist containing all the code and information relating to the project: 
+[Github Gist](https://gist.github.com/Torus403/b98799102002cf463f49e75fb259665f)
