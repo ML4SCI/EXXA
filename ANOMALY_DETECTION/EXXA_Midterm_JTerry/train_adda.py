@@ -319,9 +319,9 @@ if __name__ == "__main__":
     print("Setting up WandB")
 
     # set up wandb logger
-    os.environ["WANDB_API_KEY"] = "199115cad71655dbb5640225359e90bc0a91bcca"
+    os.environ["WANDB_API_KEY"] = ""
     # wandb entity
-    entity = "chlab"
+    entity = ""
     logger_kwargs = {
         "resume": "allow",
         "config": model_hparams,

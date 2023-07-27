@@ -2,7 +2,6 @@
 
 ### Runs a wandb sweep on the autoencoder ###
 
-export WANDB_API_KEY=199115cad71655dbb5640225359e90bc0a91bcca
+export WANDB_API_KEY=XXXXXX
 
-## 101 seq length
-wandb agent chlab/transformer_anomaly/7srnxr38
+wandb agent XXXXX
