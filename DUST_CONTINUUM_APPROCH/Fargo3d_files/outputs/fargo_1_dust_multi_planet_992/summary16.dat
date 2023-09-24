@@ -1,0 +1,231 @@
+==============================
+SUMMARY:
+==============================
+SETUP 'fargo_1_dust_multi_planet' of FARGO3D git version 2.0-20-g7835cac9-dirty
+Cylindrical mesh of size 384 x 256 x 1 (98304 cells in total)
+50 outputs scheduled
+Source file archive: sources0.tar.bz2
+3 planets
+
+==============================
+COMPILATION OPTION SECTION:
+==============================
+-DBIGMEM -DPARALLEL -DNFLUIDS=2 -DX -DY -DISOTHERMAL -DCYLINDRICAL -DPOTENTIAL -DVISCOSITY -DDRAGFORCE -DSTOKESNUMBER -DDUSTDIFFUSION -DSTOCKHOLM -DLONGSUMMARY
+Ghost layer sizes: NGHX=0	NGHY=3	NGHZ=0
+
+==============================
+STICKY FLAGS SECTION:
+==============================
+PARALLEL=1
+SETUP=fargo_1_dust_multi_planet
+BIGMEM=1
+RESCALE=0
+PROFILING=0
+MPICUDA=0
+GPU=0
+DEBUG=0
+FULLDEBUG=0
+FARGO_DISPLAY=NONE
+UNITS=0
+GHOSTSX=0
+LONGSUMMARY=0
+
+==============================
+RUNTIME GENERAL SECTION:
+==============================
+Current Working Directory is /home/mihir/FARGO3d/public
+Command line: ./fargo3d setups/fargo_1_dust_multi_planet/fargo_1_dust_multi_planet_992.par 
+Parameter file: setups/fargo_1_dust_multi_planet/fargo_1_dust_multi_planet_992.par
+Run on 2 processes
+Hosts:
+   Rank 0 on DESKTOP-T3AHGRD
+   Rank 1 on DESKTOP-T3AHGRD
+
+==============================
+OUTPUT SPECIFIC SECTION:
+==============================
+OUTPUT 16 at simulation time 442.336 (2023-9-13 19:22:40)
+
+==============================
+PREPROCESSOR MACROS SECTION:
+==============================
+R0 = (1.0) = 1
+R_MU = (1.0) = 1
+MU0 = (1.0) = 1
+MSTAR = (1.0) = 1
+G = (1.0) = 1
+STEFANK = (5.6705e-5*pow((1.0)/36149835.0,4.0)*pow((1.0)/6.674e-8,-2.5)*pow((1.0)/1.9891e33,-1.5)*pow((1.0)/(5.2*1.49597871e13),-0.5)) = 29895.8
+C0 = (2.99792458e10*sqrt((1.0)/6.674e-8*(1.0)/1.9891e33/(1.0)*(5.2*1.49597871e13))) = 22949
+TCMB = (2.73*((1.0)*(1.0)/(1.0)/(1.0))/(6.674e-8*1.9891e33/(5.2*1.49597871e13)/36149835.0)) = 5.78302e-05
+THRESHOLD_STELLAR_MASS = 0.05*(1.0) = 0.05
+
+==============================
+PARAMETERS SECTION:
+==============================
+   ALPHA	0
+   AMBIPOLARDIFFUSIONCOEFF	0
+   ASPECT	auto
+   ASPECTRATIO	0.05
+   AUTOCOLOR	1
+   BETA	0
+   CFL	0.44
+   CMAP	magma
+   COLORBAR	1
+   COORDINATES	cylindrical
+   CS	1
+   DAMPINGZONE	1.15
+   DT	0.314159265359
+   ECCENTRICITY	0
+   EPSILON	0.01
+   EXCLUDEHILL	0
+   FIELD	gasdens
+   FLARINGINDEX	0
+   FRAME	F
+   FUNCARCHFILE	std/func_arch.cfg
+   GAMMA	1.66666667
+   HALLEFFECTCOEFF	0
+   INCLINATION	0
+   INDIRECTTERM	0
+   INVSTOKES1	84.81
+   KILLINGBCCOLATITUDE	-0.2
+   MASSTAPER	0
+   NINTERM	88
+   NOISE	0
+   NSNAP	0
+   NTOT	4400
+   NU	0.0001
+   NX	384
+   NY	256
+   NZ	1
+   OHMICDIFFUSIONCOEFF	0
+   OMEGAFRAME	0
+   OORTA	-0.75
+   ORBITALRADIUS	0
+   OUTPUTDIR	./outputs/fargo_1_dust_multi_planet_992/
+   PERIODICY	0
+   PERIODICZ	0
+   PLANETCONFIG	planets/system_992_planets.cfg
+   PLANETMASS	0
+   PLOTLINE	field[:,:,0]
+   PLOTLOG	0
+   REALTYPE	float64
+   RELEASEDATE	0
+   RELEASERADIUS	0
+   RESONANCE	0.5
+   ROCHESMOOTHING	0
+   SEMIMAJORAXIS	0
+   SETUP	fargo_1_dust_multi_planet
+   SIGMA0	0.0003096
+   SIGMASLOPE	0.436
+   SPACING	Lin
+   TAUDAMP	0.3
+   THICKNESSSMOOTHING	0.6
+   VERTICALDAMPING	0
+   VMAX	1
+   VMIN	0
+   VTK	0
+   WRITEBX	0
+   WRITEBY	0
+   WRITEBZ	0
+   WRITEDENSITY	0
+   WRITEDIVERGENCE	0
+   WRITEENERGY	0
+   WRITEENERGYRAD	1
+   WRITETAU	1
+   WRITEVX	0
+   WRITEVY	0
+   WRITEVZ	0
+   XMA	0
+   XMAX	3.14159265358979
+   XMB	0
+   XMC	0
+   XMIN	-3.14159265358979
+   YMA	0
+   YMAX	10
+   YMB	0
+   YMC	0
+   YMIN	0.4
+   YMY0	1
+   ZMAX	1
+   ZMIN	0
+*** Input file: setups/fargo_1_dust_multi_planet/fargo_1_dust_multi_planet_992.par
+#-----------
+Key	Value
+Setup	fargo_1_dust_multi_planet
+AspectRatio	0.05
+Sigma0	0.0003096
+SigmaSlope	0.436
+FlaringIndex	0.0
+Nu	1.0e-4
+Invstokes1	84.81
+Epsilon	0.01
+PlanetConfig	planets/system_992_planets.cfg
+ThicknessSmoothing	0.6
+Eccentricity	0.0
+IndirectTerm	no
+Nx	384
+Ny	256
+Xmin	-3.14159265358979323844
+Xmax	3.14159265358979323844
+Ymin	0.4
+Ymax	10.0
+OmegaFrame	0.0
+Frame	F
+DT	0.314159265359
+Ninterm	88
+Ntot	4400
+OutputDir	@outputs/fargo_1_dust_multi_planet_992
+
+#-----------
+
+==============================
+BOUNDARY CONDITIONS SECTION:
+==============================
+#Boundaries file for fluid number 0
+#----------------------------------
+
+Density:
+	Ymin: KEPLERIAN2DDENS
+	Ymax: KEPLERIAN2DDENS
+
+Vx:
+	Ymin: KEPLERIAN2DVAZIM
+	Ymax: KEPLERIAN2DVAZIM
+
+Vy:
+	Ymin: ANTISYMMETRIC
+	Ymax: ANTISYMMETRIC
+
+#Boundaries file for fluid number 1
+#----------------------------------
+
+Density:
+	Ymin: KEPLERIAN2DDENS
+	Ymax: KEPLERIAN2DDENS
+
+Vx:
+	Ymin: KEPLERIAN2DVAZIM
+	Ymax: KEPLERIAN2DVAZIM
+
+Vy:
+	Ymin: ANTISYMMETRIC
+	Ymax: ANTISYMMETRIC
+
+==============================
+PLANETARY SYSTEM SECTION:
+==============================
+#### (X,Y,Z,VX,VY,VZ,mass)
+#### Planet 0 out of 3
+4.31956437225822	-0.392677368142202	0	0.0156350450247589	0.472915704754253	0	0.004374
+#### Planet 1 out of 3
+10841.8607413208	-8417.4657966581	0	25.2255338225906	-19.602617880184	0	6.918e-06
+#### Planet 2 out of 3
+-1.98586049867775	-1.89944337055622	0	0.461985505011048	-0.469558614663195	0	1.156e-05
+*** Planetary system config file: planets/system_992_planets.cfg
+#-----------
+# PlanetName  Distance  Mass  Accretion  Feels Disk  Feels Others
+planet_0  6.108e+00  4.374e-03  0.0  YES  YES
+planet_1  6.810e+00  6.918e-06  0.0  YES  YES
+planet_2  3.797e+00  1.156e-05  0.0  YES  YES
+
+#-----------
