@@ -1,0 +1,9 @@
+torch
+torchvision
+pytorch-lightning
+e3nn
+wandb
+pandas
+numpy
+Pillow
+e2cnn
