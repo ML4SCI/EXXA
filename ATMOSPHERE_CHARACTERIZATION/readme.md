@@ -16,11 +16,11 @@ This project aims to develop machine-learning models that can identify chemical 
 
 ### Blog
 To read more about the project:
-[Medium blog-1](https://medium.com/@shuklag554/exoplanet-atmosphere-characterization-gsoc24-ml4sci-5f78f85faa13)
+[Medium blog-1](https://medium.com/@shuklag554/exoplanet-atmosphere-characterization-gsoc24-ml4sci-5f78f85faa13) , 
 [Medium blog-2](https://medium.com/@shuklag554/exoplanet-atmosphere-characterization-gsoc24-ml4sci-part-2-96392e3ba190)
 
 ## POSEIDON
-To install POSEIDON, please refer to this:
+To install POSEIDON, please refer to this for installation and opacity files:
 [Installation guide](https://poseidon-retrievals.readthedocs.io/en/latest/content/installation.html)
 
 
