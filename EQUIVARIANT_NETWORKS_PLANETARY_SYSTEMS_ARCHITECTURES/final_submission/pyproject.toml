@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planetary-disk-planet-detection"
+version = "0.1.0"
+description = "A project for detecting exoplanets in protoplanetary disks using deep learning and equivariant architectures."
+authors = [
+    { name="Alexandra Murariu", email="murariu.alexandra2002@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["deep learning", "equivariance", "protoplanetary disks", "planet detection"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}  # Tells setuptools that packages are in the `src/` folder
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black",
+    "flake8"
+]
