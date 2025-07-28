@@ -1,7 +1,0 @@
-2 	 iformat (2)
-1 	 species
------------------------------------------------------------------------------
-1 	 in which form the dust opacity of dust species is to be read
-0 	 0 = thermal grains
-mix_2species_60silicates_40carbons0 	 dustkap***.inp file
------------------------------------------------------------------------------
