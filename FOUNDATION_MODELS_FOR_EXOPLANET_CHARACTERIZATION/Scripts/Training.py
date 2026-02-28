@@ -84,8 +84,14 @@ def run_epochs(model, train_loader, test_loader, save_dir,
         train_loss = train_fn(model, train_loader, optimizer, device, criterion)
         test_ssim, test_mse = test_fn(model, test_loader, device, criterion)
         total_loss = (1 - test_ssim) + test_mse
-        if (scheduler is not None):
-            scheduler.step(total_loss)
+        if scheduler is not None:
+            # ReduceLROnPlateau requires a metric argument; other schedulers
+            # (CosineAnnealingLR, ExponentialLR, etc.) must be called with no
+            # arguments — passing a value to them raises TypeError in PyTorch >= 1.4
+            if isinstance(scheduler, optim.lr_scheduler.ReduceLROnPlateau):
+                scheduler.step(total_loss)
+            else:
+                scheduler.step()
 
         if (total_loss < best_loss):
             best_loss = total_loss

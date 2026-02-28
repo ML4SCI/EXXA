@@ -1,4 +1,0 @@
-dataset
-models
-notebooks
-utilities
