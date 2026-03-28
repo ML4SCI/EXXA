@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "DENOISING_DIFFUSION/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "DENOISING_DIFFUSION/**"
+      - ".github/workflows/ci.yml"
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: DENOISING_DIFFUSION
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install scikit-image numpy scipy pytest flake8
+
+      - name: Lint
+        run: |
+          flake8 src/models/ src/training/ src/inference/ src/utils/ \
+            tests/test_blocks.py tests/test_trainer.py tests/test_inferencer.py tests/test_metrics.py \
+            --max-line-length=100 --ignore=E203,W503
+
+      - name: Test
+        run: pytest tests/ -v
