@@ -1,0 +1,5 @@
+name,prediction_type,beta_schedule,min_snr_gamma,epochs,best_val_loss,psnr,ssim,mse,wall_time_s
+A_eps_linear,eps,linear,0.0,12,36.3212,18.0143,0.5403,0.02239723,3200.5
+C_v_cosine,v,cosine,0.0,12,139.14723,37.1949,0.98807,0.00028848,3259.3
+D_v_cosine_minsnr5,v,cosine,5.0,12,31.2026,36.2485,0.99135,0.00036571,3257.8
+patch_view,v,cosine,0.0,12,20.20035,35.7873,0.99251,0.00033415,1700.5

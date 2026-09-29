@@ -1,0 +1,21 @@
+{
+  "notebook": "09-architecture-comparison",
+  "kaggle_version": 7,
+  "kaggle_push_commit": "ecaa540",
+  "code_commit": "ee491fc",
+  "utc": "2026-08-02T17:21Z",
+  "note": "also resumed from v4; same numbers again.",
+  "recovered_from_git": true,
+  "files": {
+    "architecture_moment_maps.png": {
+      "bytes": 702939,
+      "sha256_16": "cf037489966e8715",
+      "provenance": "recovered from ecaa540 (notebook display copy, not the savefig artifact)"
+    },
+    "run_log.txt": {
+      "bytes": 10886,
+      "sha256_16": "87ab7264252e9230",
+      "provenance": "recovered from ecaa540 (notebook display copy, not the savefig artifact)"
+    }
+  }
+}

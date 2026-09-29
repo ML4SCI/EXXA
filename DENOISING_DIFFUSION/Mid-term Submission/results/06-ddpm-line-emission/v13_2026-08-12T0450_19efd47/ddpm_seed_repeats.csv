@@ -1,0 +1,2 @@
+seed,prediction_type,beta_schedule,min_snr_gamma,epochs_run,best_val_loss,psnr,ssim,mse,wall_time_s
+42,v,cosine,0.0,0,56.69889,38.18,0.99328,0.00028388,16165.2
