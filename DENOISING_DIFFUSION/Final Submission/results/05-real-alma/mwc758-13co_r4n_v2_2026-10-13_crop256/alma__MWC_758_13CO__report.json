@@ -1,0 +1,42 @@
+{
+ "cube": "MWC_758_13CO_fiducial.image.fits",
+ "shape": [
+  301,
+  256,
+  256
+ ],
+ "pix_mas": 24.9999999999984,
+ "beam_arcsec": [
+  0.150000000045732,
+  0.14999999906628
+ ],
+ "beam_px": [
+  6.0000000018296635,
+  5.999999962651584
+ ],
+ "dv_ms": 99.99999998549391,
+ "line_free_planes": 254,
+ "sigma_raw": 0.005189131014049053,
+ "residual_continuum_peak_sigma": 6.602579116821289,
+ "scale": 1.0,
+ "S1": {
+  "offline_rms_raw": 0.005189131014049053,
+  "offline_rms_den": 0.0002107580512529239,
+  "noise_reduction": 24.6212706143394,
+  "m0_total_ratio": 0.9767751097679138,
+  "mask_px": 3395,
+  "m1_shift_bright_median_ms": 75.50469151534057,
+  "m1_shift_bright_p95_ms": 257.4209355934549
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 7.887712613804133e-05,
+  "frac_above_4sigma_den_lineplanes": 2.1326260303887795e-05
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.05749466253648059,
+  "rc_rms_raw_ms": 6245.441352074007,
+  "rc_rms_den_ms": 6503.183148766057,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "minutes": 0.4404364506403605
+}

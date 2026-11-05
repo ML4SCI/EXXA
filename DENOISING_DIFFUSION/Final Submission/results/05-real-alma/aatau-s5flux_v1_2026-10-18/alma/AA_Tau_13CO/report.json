@@ -1,0 +1,296 @@
+{
+ "gate": "40,120,0.25",
+ "wiener2": true,
+ "infer_beam_px": 10.0,
+ "snr_est": 7.555933599086214,
+ "gate_a": 1.0,
+ "cube": "AA_Tau_13CO_fiducial.image.fits",
+ "shape": [
+  301,
+  512,
+  512
+ ],
+ "pix_mas": 24.9999999999984,
+ "beam_arcsec": [
+  0.1500000001101,
+  0.150000000067584
+ ],
+ "beam_px": [
+  6.0000000044043835,
+  6.000000002703743
+ ],
+ "dv_ms": 100.00000004084164,
+ "line_free_planes": 198,
+ "line_range_kms": [
+  1.4010000014782737,
+  11.6010000056442
+ ],
+ "sigma_raw": 0.003693405771628022,
+ "residual_continuum_peak_sigma": 7.09529972076416,
+ "continuum": {
+  "blue_far_planes": 49,
+  "red_far_planes": 49,
+  "blue_peak_sigma": 5.053002834320068,
+  "red_peak_sigma": 4.797066688537598,
+  "blue_peak_on_red_sigma": 0.6010497808456421,
+  "red_peak_on_blue_sigma": 1.768469214439392,
+  "blue_red_corr": 0.0999411597811328,
+  "decision": "none",
+  "reason": "no continuum on both far sides (any leftover is near the line: line wings or noise); cube kept as delivered",
+  "mode": "auto",
+  "subtracted": false
+ },
+ "fov": null,
+ "scale": 1.6666666654432267,
+ "S1": {
+  "offline_rms_raw": 0.003693405771628022,
+  "offline_rms_den": 4.5000851969234645e-05,
+  "noise_reduction": 82.07412993320797,
+  "m0_total_ratio": 1.089770793914795,
+  "mask_px": 3491,
+  "m1_shift_bright_median_ms": 156.3932546121869,
+  "m1_shift_bright_p95_ms": 1369.8810056976513
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 6.916547062421086e-05,
+  "frac_above_4sigma_den_lineplanes": 9.633073903093434e-08
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.7951346838670701,
+  "rc_rms_raw_ms": 294.011217795741,
+  "rc_rms_den_ms": 242.6312758005835,
+  "pv": {
+   "pv_r": 0.5353680881567343,
+   "pv5_r": 0.3826111552409096,
+   "pv_rms_ms": 36.35790725968783,
+   "pv5_rms_ms": 29.489968422569373,
+   "pv_mag_ms": 8.390532511045611,
+   "pv5_mag_ms": 26.294831097507913
+  },
+  "pv_mag_raw_ms": 35.34427166527761,
+  "pv5_mag_raw_ms": 26.955955524576765,
+  "geom": {
+   "au_per_px": 3.374999999999784,
+   "incl": 58.7,
+   "mstar": 0.7421601063920409,
+   "mstar_at_bound": false,
+   "pa_deg_fit": 3.2382669260119985,
+   "fit_cost": 565.4354598366122,
+   "vsys_fit": 6.451972514743456,
+   "cx_fit": 256.12641417938437,
+   "cy_fit": 254.4187703410787,
+   "r_in_au": 40.500000029727005,
+   "r_out_au": 183.0362120806081,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.10000000004084164,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 272.7,
+  "pa_inits": null,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "S5": {
+  "GI_r0.5@snr6": {
+   "dirty": {
+    "rc_r": 0.014883771509862666,
+    "dv_med_ms": 169.64894465580286,
+    "spurious_ms": 1460.4358767371632
+   },
+   "wiener": {
+    "rc_r": 0.11663754177357546,
+    "dv_med_ms": 54.70939029379929,
+    "spurious_ms": 35.916473316737495
+   },
+   "model": {
+    "rc_r": 0.15937221341102725,
+    "dv_med_ms": 35.675165444281674,
+    "spurious_ms": 69.5363099339431
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 76.16914439332001,
+   "flux_vs_truth": {
+    "dirty": 0.9876808866692964,
+    "wiener": 0.68218735830987,
+    "model": 1.084545082073736
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.6378352046012878,
+   "s1_flux_ratio_truth_vs_dirty": 0.8502032160758972
+  },
+  "GI_r0.5@snr8": {
+   "dirty": {
+    "rc_r": 0.025650970491258578,
+    "dv_med_ms": 105.2323043776191,
+    "spurious_ms": 1166.1776929338093
+   },
+   "wiener": {
+    "rc_r": 0.13360203740777798,
+    "dv_med_ms": 49.76262852719293,
+    "spurious_ms": 7.435946956254632
+   },
+   "model": {
+    "rc_r": 0.3038267648389393,
+    "dv_med_ms": 30.785847840365644,
+    "spurious_ms": 23.334047911981934
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 62.34243812723017,
+   "flux_vs_truth": {
+    "dirty": 0.9907609995954647,
+    "wiener": 0.7269232144852527,
+    "model": 1.0393336741115828
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.8153079748153687,
+   "s1_flux_ratio_truth_vs_dirty": 0.9364435076713562
+  },
+  "GI_r0.5@snr12": {
+   "dirty": {
+    "rc_r": 0.04543457666297434,
+    "dv_med_ms": 66.42327303800627,
+    "spurious_ms": 753.2230057944499
+   },
+   "wiener": {
+    "rc_r": 0.19162233221108058,
+    "dv_med_ms": 39.542993546781005,
+    "spurious_ms": -16.131627431614874
+   },
+   "model": {
+    "rc_r": 0.7223906111103781,
+    "dv_med_ms": 25.243507335959148,
+    "spurious_ms": -16.440225342440456
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 47.33236135985419,
+   "flux_vs_truth": {
+    "dirty": 0.9938413319351698,
+    "wiener": 0.9632614778863244,
+    "model": 1.0163089296725263
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.9018623232841492,
+   "s1_flux_ratio_truth_vs_dirty": 0.9607917666435242
+  },
+  "GI_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.18057000205339005,
+    "dv_med_ms": 37.03861240413292,
+    "spurious_ms": 210.61120855062288
+   },
+   "wiener": {
+    "rc_r": 0.5133964064365155,
+    "dv_med_ms": 31.315497321759263,
+    "spurious_ms": -25.784555271671692
+   },
+   "model": {
+    "rc_r": 0.8691598886848475,
+    "dv_med_ms": 18.484204642573303,
+    "spurious_ms": -14.314007149834651
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 29.95022238524081,
+   "flux_vs_truth": {
+    "dirty": 0.9969211472928674,
+    "wiener": 0.9845601216375633,
+    "model": 1.0166908057466684
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.973266065120697,
+   "s1_flux_ratio_truth_vs_dirty": 0.9805503487586975
+  },
+  "Kep_r0.5@snr6": {
+   "dirty": {
+    "rc_r": 0.0021829448666629866,
+    "dv_med_ms": 137.76900550389325,
+    "spurious_ms": 1533.5502952412955
+   },
+   "wiener": {
+    "rc_r": 0.04620730829882703,
+    "dv_med_ms": 28.975215566071356,
+    "spurious_ms": 87.77469937110581
+   },
+   "model": {
+    "rc_r": 0.1567083876029167,
+    "dv_med_ms": 18.822071522710925,
+    "spurious_ms": 52.92495155092933
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 65.00454696687564,
+   "flux_vs_truth": {
+    "dirty": 0.980595641062923,
+    "wiener": 0.663303870017321,
+    "model": 1.1030525297170315
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.6386099457740784,
+   "s1_flux_ratio_truth_vs_dirty": 0.8553094267845154
+  },
+  "Kep_r0.5@snr8": {
+   "dirty": {
+    "rc_r": 0.005143425364240139,
+    "dv_med_ms": 84.32522643076209,
+    "spurious_ms": 1213.2149900305023
+   },
+   "wiener": {
+    "rc_r": 0.042241627876116676,
+    "dv_med_ms": 23.75094966070314,
+    "spurious_ms": 53.42151671006965
+   },
+   "model": {
+    "rc_r": 0.3450575576053547,
+    "dv_med_ms": 16.12657923910027,
+    "spurious_ms": 12.65484588815426
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 52.95081140773439,
+   "flux_vs_truth": {
+    "dirty": 0.9854469070608594,
+    "wiener": 0.6861852151321907,
+    "model": 1.0596802105686456
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.8235461115837097,
+   "s1_flux_ratio_truth_vs_dirty": 0.9470734596252441
+  },
+  "Kep_r0.5@snr12": {
+   "dirty": {
+    "rc_r": 0.009716375615238464,
+    "dv_med_ms": 52.39837805086606,
+    "spurious_ms": 740.0362586174417
+   },
+   "wiener": {
+    "rc_r": 0.050237731102484834,
+    "dv_med_ms": 13.443059293455649,
+    "spurious_ms": 20.910889834104758
+   },
+   "model": {
+    "rc_r": 0.44049643380865994,
+    "dv_med_ms": 12.925147456739204,
+    "spurious_ms": 5.8963300151703955
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 40.41636885863164,
+   "flux_vs_truth": {
+    "dirty": 0.990297093128654,
+    "wiener": 0.9553966297164899,
+    "model": 1.0253836908369958
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.9100885987281799,
+   "s1_flux_ratio_truth_vs_dirty": 0.966758668422699
+  },
+  "Kep_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.08556553846619419,
+    "dv_med_ms": 28.84755731807148,
+    "spurious_ms": 153.88703523775132
+   },
+   "wiener": {
+    "rc_r": 0.2230900051119823,
+    "dv_med_ms": 10.798635338186813,
+    "spurious_ms": 2.211483231421905
+   },
+   "model": {
+    "rc_r": 0.6130013725283734,
+    "dv_med_ms": 8.979162018688092,
+    "spurious_ms": 0.6710152407730305
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 25.232993821674487,
+   "flux_vs_truth": {
+    "dirty": 0.9951487890319295,
+    "wiener": 0.9806097850064015,
+    "model": 1.0232899830895013
+   },
+   "s1_flux_ratio_model_vs_dirty": 0.9775428771972656,
+   "s1_flux_ratio_truth_vs_dirty": 0.9837152361869812
+  }
+ },
+ "minutes": 80.17779436508815
+}

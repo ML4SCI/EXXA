@@ -1,0 +1,8 @@
+{
+ "tag": "cand_c_s71",
+ "train_complete": true,
+ "eval_complete": true,
+ "round": 80,
+ "rounds": 80,
+ "checkpoint": "unified_cand_c_s71.pth"
+}

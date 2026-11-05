@@ -1,0 +1,202 @@
+{
+ "gate": "40,120,0.25",
+ "wiener2": true,
+ "infer_beam_px": 10.0,
+ "snr_est": 14.994183791903943,
+ "gate_a": 1.0,
+ "cube": "HD_135344B_13CO_fiducial.image.fits",
+ "shape": [
+  301,
+  512,
+  512
+ ],
+ "pix_mas": 24.9999999999984,
+ "beam_arcsec": [
+  0.1500000000282,
+  0.14999999995785598
+ ],
+ "beam_px": [
+  6.000000001128384,
+  5.999999998314623
+ ],
+ "dv_ms": 99.99999998549302,
+ "line_free_planes": 235,
+ "line_range_kms": [
+  3.867000014353489,
+  10.367000013410529
+ ],
+ "sigma_raw": 0.0036239365581423044,
+ "residual_continuum_peak_sigma": 6.573604106903076,
+ "continuum": {
+  "blue_far_planes": 59,
+  "red_far_planes": 58,
+  "blue_peak_sigma": 5.634269714355469,
+  "red_peak_sigma": 5.976363658905029,
+  "blue_peak_on_red_sigma": 0.6231368780136108,
+  "red_peak_on_blue_sigma": -0.8972989916801453,
+  "blue_red_corr": 0.12894034717291306,
+  "decision": "none",
+  "reason": "no continuum on both far sides (any leftover is near the line: line wings or noise); cube kept as delivered",
+  "mode": "auto",
+  "subtracted": false
+ },
+ "fov": null,
+ "scale": 1.6666666663532268,
+ "S1": {
+  "offline_rms_raw": 0.0036239365581423044,
+  "offline_rms_den": 1.984442860702984e-05,
+  "noise_reduction": 182.61732952384097,
+  "m0_total_ratio": 1.0453760623931885,
+  "mask_px": 5270,
+  "m1_shift_bright_median_ms": 57.40707636909548,
+  "m1_shift_bright_p95_ms": 174.7726442970113
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 5.9460579080784575e-05,
+  "frac_above_4sigma_den_lineplanes": 0.0
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.7734514771332017,
+  "rc_rms_raw_ms": 83.47925112800215,
+  "rc_rms_den_ms": 56.816379763837375,
+  "pv": {
+   "pv_r": 0.7927510625130337,
+   "pv5_r": 0.8749266603211824,
+   "pv_rms_ms": 34.09815890742667,
+   "pv5_rms_ms": 32.82049952185664,
+   "pv_mag_ms": 27.169489172220416,
+   "pv5_mag_ms": 25.365214263907053
+  },
+  "pv_mag_raw_ms": 49.59822966506414,
+  "pv5_mag_raw_ms": 52.887925684402695,
+  "geom": {
+   "au_per_px": 3.374999999999784,
+   "incl": 16.1,
+   "mstar": 1.5962076840011794,
+   "mstar_at_bound": false,
+   "pa_deg_fit": 151.69103466349105,
+   "vsys_fit": 7.080081899276884,
+   "cx_fit": 256.0481243286955,
+   "cy_fit": 255.10489977008467,
+   "r_in_au": 40.500000007614,
+   "r_out_au": 153.97952835945338,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.09999999998549303,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 242.9,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "S5": {
+  "GI_r0.5@snr12": {
+   "dirty": {
+    "rc_r": 0.03988637780853254,
+    "dv_med_ms": 65.36954090913532,
+    "spurious_ms": 739.9412396290115
+   },
+   "wiener": {
+    "rc_r": 0.6540121931027931,
+    "dv_med_ms": 25.264526899964167,
+    "spurious_ms": -21.48189692125547
+   },
+   "model": {
+    "rc_r": 0.8550891471554148,
+    "dv_med_ms": 18.97898520999,
+    "spurious_ms": -16.443283124628344
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 47.15532957823454
+  },
+  "GI_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.16316182939706844,
+    "dv_med_ms": 36.86188160838388,
+    "spurious_ms": 226.96151447835288
+   },
+   "wiener": {
+    "rc_r": 0.8469003058329189,
+    "dv_med_ms": 17.005646040058775,
+    "spurious_ms": -15.203504017475844
+   },
+   "model": {
+    "rc_r": 0.9310254936933927,
+    "dv_med_ms": 14.001904359035144,
+    "spurious_ms": -11.96203739442101
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 30.17927407780574
+  },
+  "GI_r0.5@snr36": {
+   "dirty": {
+    "rc_r": 0.44904616410957926,
+    "dv_med_ms": 26.33436470841799,
+    "spurious_ms": 59.51489507889256
+   },
+   "wiener": {
+    "rc_r": 0.9113308285150968,
+    "dv_med_ms": 12.014793696001668,
+    "spurious_ms": -10.327192319534454
+   },
+   "model": {
+    "rc_r": 0.9548727293432765,
+    "dv_med_ms": 11.686111612412786,
+    "spurious_ms": -9.928744282309182
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 22.77353107598856
+  },
+  "Kep_r0.5@snr12": {
+   "dirty": {
+    "rc_r": -0.0004871197270084239,
+    "dv_med_ms": 52.57123707962327,
+    "spurious_ms": 751.4172568436752
+   },
+   "wiener": {
+    "rc_r": 0.29531848262611016,
+    "dv_med_ms": 8.850500126016653,
+    "spurious_ms": 0.3309561424483789
+   },
+   "model": {
+    "rc_r": 0.5887869833269508,
+    "dv_med_ms": 8.618493679591971,
+    "spurious_ms": -0.01712907254798246
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 43.76955180725284
+  },
+  "Kep_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.05351871315716408,
+    "dv_med_ms": 29.279402825459115,
+    "spurious_ms": 178.8434491047099
+   },
+   "wiener": {
+    "rc_r": 0.5350451536112506,
+    "dv_med_ms": 6.09143227250425,
+    "spurious_ms": -1.9021134959571828
+   },
+   "model": {
+    "rc_r": 0.7553867524490874,
+    "dv_med_ms": 6.538650765066489,
+    "spurious_ms": -1.483753865081333
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 27.380577470860423
+  },
+  "Kep_r0.5@snr36": {
+   "dirty": {
+    "rc_r": 0.20434645896690243,
+    "dv_med_ms": 20.724526417229118,
+    "spurious_ms": 45.572078849564406
+   },
+   "wiener": {
+    "rc_r": 0.6900685589070492,
+    "dv_med_ms": 4.450633376191129,
+    "spurious_ms": -1.955742222484968
+   },
+   "model": {
+    "rc_r": 0.8299169563657027,
+    "dv_med_ms": 5.4131969801679,
+    "spurious_ms": -1.9559127529272295
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 20.220959183620547
+  }
+ },
+ "minutes": 69.34368287722269
+}

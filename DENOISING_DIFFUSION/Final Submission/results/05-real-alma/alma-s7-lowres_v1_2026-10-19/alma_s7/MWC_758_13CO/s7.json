@@ -1,0 +1,30 @@
+{
+ "beam_fid_arcsec": [
+  0.150000000045732,
+  0.14999999906628
+ ],
+ "beam_lowres_arcsec": [
+  0.300000000162888,
+  0.30000000007396804
+ ],
+ "pix_fid_mas": 24.9999999999984,
+ "sigma_lowres": 0.004069242626428604,
+ "sigma_raw_smoothed": 0.006511305924504995,
+ "sigma_den_smoothed": 4.0386330510955304e-05,
+ "mask_px": 7278,
+ "caveat": "the low-res image shares visibilities (and so part of its noise) with the raw fiducial cube; this favours raw",
+ "rms_diff_raw_in_sigma_lowres": 1.0937325954437256,
+ "rms_diff_den_in_sigma_lowres": 1.47816002368927,
+ "flux_ratio_raw_vs_lowres_by_radius": [
+  0.9978113770484924,
+  1.009033203125,
+  1.0238618850708008
+ ],
+ "flux_ratio_den_vs_lowres_by_radius": [
+  1.137017011642456,
+  1.0810285806655884,
+  0.9967977404594421
+ ],
+ "m1_abs_diff_raw_vs_lowres_ms": 10.200005768250087,
+ "m1_abs_diff_den_vs_lowres_ms": 26.715280111728745
+}

@@ -1,0 +1,5 @@
+# dsharp-hd142666_spectral-test_v2_2026-10-17
+
+Kaggle kernel `alma-dsharp-test` v2, 2026-10-17. DSHARP HD 142666 12CO J=2-1 fiducial image (NRAO bulk server, 540 MB, 60 channels of 0.35 km/s, 10 mas pixel, beam 7.7 x 6.1 px), centre crop 512 px, recipe B, inference only. Two modes: `native` (model on the 0.35 km/s channels) and `interp01` (`--spec-interp 0.1`: interpolated to a 4 times finer velocity grid, model run there, averaged back). S5 injection (Speedie GI r0.5 and Keplerian twin, SNR 12 / 24 / 36, binned to 0.35 km/s) with noise drawn from the cube's own spectrum and lag-1 channel correlation (0.68) because only 12 of the 60 planes are line-free.
+v1 of the kernel: native mode only; S5 skipped (12 line-free planes for 35 needed) and the interpolated mode crashed on an unrecognised argument (Kaggle ran the code overlay from before the sync). v2 here has the synthetic noise and a stale-overlay guard. The log is v2's; both modes' reports are printed in it (the two reports share a file name in the Output listing, so the log is the record). Figures and FITS stay in the kernel Output.
+

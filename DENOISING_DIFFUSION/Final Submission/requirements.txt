@@ -1,0 +1,20 @@
+# Install with: pip install -r requirements.txt   (Python >= 3.10)
+
+# numpy >= 2.0 is required: bettermoments 1.10 calls np.trapezoid (the numpy 2.0 name of
+# np.trapz), so moment maps raise AttributeError on numpy 1.x.
+numpy>=2.0.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+scikit-image>=0.20.0
+
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch-msssim>=1.0.0   # SSIM term of the training loss
+
+# astropy >= 6.1 is the first release that accepts numpy 2.
+astropy>=6.1.0
+bettermoments>=1.10.0   # moment maps M0 / M1 / M2
+
+pytest>=7.3.0           # two test files use pytest; the rest are plain scripts

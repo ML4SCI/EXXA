@@ -1,0 +1,73 @@
+{
+ "original_S6": {
+  "rc_r_denoised_vs_raw": 0.9753589617675096,
+  "rc_rms_raw_ms": 525.4157231810565,
+  "rc_rms_den_ms": 499.57660341257457,
+  "pv": {
+   "pv_r": 0.9614899447083941,
+   "pv5_r": 0.9845601900211536,
+   "pv_rms_ms": 32.2329816656341,
+   "pv5_rms_ms": 23.850236496191737,
+   "pv_mag_ms": 111.82579683037929,
+   "pv5_mag_ms": 133.17902381786547
+  },
+  "pv_mag_raw_ms": 117.23396496251912,
+  "pv5_mag_raw_ms": 136.1587253115165,
+  "geom": {
+   "au_per_px": 4.174999999999733,
+   "incl": 16.9,
+   "mstar": 49.999999999953836,
+   "mstar_at_bound": true,
+   "pa_deg_fit": 96.35101133327551,
+   "vsys_fit": 7.107946126864715,
+   "cx_fit": 176.53395516040956,
+   "cy_fit": 263.45164637477615,
+   "r_in_au": 50.0999995978493,
+   "r_out_au": 435.9576157171044,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.10000000004084342,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 168.9,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "refit_S6": {
+  "rc_r_denoised_vs_raw": 0.4256227740760776,
+  "rc_rms_raw_ms": 54.010175303295846,
+  "rc_rms_den_ms": 33.33641266654426,
+  "pv": {
+   "pv_r": 0.1904353764225825,
+   "pv5_r": 0.8750258342169085,
+   "pv_rms_ms": 25.406370441650903,
+   "pv5_rms_ms": 12.85449511004856,
+   "pv_mag_ms": 6.088414808938557,
+   "pv5_mag_ms": 20.61461579880904
+  },
+  "pv_mag_raw_ms": 25.691169504794182,
+  "pv5_mag_raw_ms": 25.505861154286784,
+  "geom": {
+   "au_per_px": 4.174999999999733,
+   "incl": 16.9,
+   "mstar": 1.3078747101838166,
+   "mstar_at_bound": false,
+   "pa_deg_fit": 77.42305258757625,
+   "fit_cost": 19.76942746929935,
+   "vsys_fit": 7.727797186245594,
+   "cx_fit": 255.59541942101575,
+   "cy_fit": 256.2401075122108,
+   "r_in_au": 50.0999995978493,
+   "r_out_au": 125.60056218899562,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.10000000004084342,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 168.9,
+  "pa_inits": [
+   258.9,
+   78.9
+  ],
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ }
+}

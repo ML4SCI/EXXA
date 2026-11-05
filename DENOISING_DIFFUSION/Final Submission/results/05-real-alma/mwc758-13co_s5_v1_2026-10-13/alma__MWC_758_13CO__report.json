@@ -1,0 +1,152 @@
+{
+ "cube": "MWC_758_13CO_fiducial.image.fits",
+ "shape": [
+  301,
+  512,
+  512
+ ],
+ "pix_mas": 24.9999999999984,
+ "beam_arcsec": [
+  0.150000000045732,
+  0.14999999906628
+ ],
+ "beam_px": [
+  6.0000000018296635,
+  5.999999962651584
+ ],
+ "dv_ms": 99.99999998549391,
+ "line_free_planes": 259,
+ "sigma_raw": 0.005184464156627655,
+ "residual_continuum_peak_sigma": 7.101194381713867,
+ "scale": 1.0,
+ "S1": {
+  "offline_rms_raw": 0.005184464156627655,
+  "offline_rms_den": 0.00020512386981863528,
+  "noise_reduction": 25.274796937146377,
+  "m0_total_ratio": 1.0190565586090088,
+  "mask_px": 3518,
+  "m1_shift_bright_median_ms": 77.41922381142174,
+  "m1_shift_bright_p95_ms": 222.18798544759798
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 7.48210892253861e-05,
+  "frac_above_4sigma_den_lineplanes": 2.153315599360521e-05
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.8173927789925077,
+  "rc_rms_raw_ms": 117.21108436038791,
+  "rc_rms_den_ms": 100.51631411685982,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "S5": {
+  "GI_r0.5@snr12": {
+   "dirty": {
+    "rc_r": 0.028955023233889394,
+    "dv_med_ms": 66.86987633778196,
+    "spurious_ms": 1329.2989234268377
+   },
+   "wiener": {
+    "rc_r": 0.5625706180340937,
+    "dv_med_ms": 28.64061742605545,
+    "spurious_ms": -23.16931752716335
+   },
+   "model": {
+    "rc_r": 0.7452803620269451,
+    "dv_med_ms": 24.894949045146276,
+    "spurious_ms": -24.430310274002338
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 56.05272053859134
+  },
+  "GI_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.0949915631609218,
+    "dv_med_ms": 36.77439689102779,
+    "spurious_ms": 445.18086647393136
+   },
+   "wiener": {
+    "rc_r": 0.7792159220377899,
+    "dv_med_ms": 20.909971740788873,
+    "spurious_ms": -18.936233339860458
+   },
+   "model": {
+    "rc_r": 0.8851752975395429,
+    "dv_med_ms": 17.57929138584241,
+    "spurious_ms": -17.991885164731556
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 34.781916434487805
+  },
+  "GI_r0.5@snr36": {
+   "dirty": {
+    "rc_r": 0.28875761518036336,
+    "dv_med_ms": 26.278240974905845,
+    "spurious_ms": 126.66002346012732
+   },
+   "wiener": {
+    "rc_r": 0.859795720416144,
+    "dv_med_ms": 15.955591199467708,
+    "spurious_ms": -14.346724895505602
+   },
+   "model": {
+    "rc_r": 0.9300762514058367,
+    "dv_med_ms": 14.215703772181454,
+    "spurious_ms": -14.089581212736036
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 26.07731334486807
+  },
+  "Kep_r0.5@snr12": {
+   "dirty": {
+    "rc_r": -0.0005930884444095414,
+    "dv_med_ms": 53.681041292509725,
+    "spurious_ms": 1274.757545428624
+   },
+   "wiener": {
+    "rc_r": 0.21547996959995572,
+    "dv_med_ms": 9.014928339604156,
+    "spurious_ms": 3.1854985479242615
+   },
+   "model": {
+    "rc_r": 0.6416195807409504,
+    "dv_med_ms": 8.11348706366144,
+    "spurious_ms": -0.057809990382663656
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 50.538190446913546
+  },
+  "Kep_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.014772390083614827,
+    "dv_med_ms": 28.90966656431282,
+    "spurious_ms": 328.13782829906967
+   },
+   "wiener": {
+    "rc_r": 0.42686337363729576,
+    "dv_med_ms": 6.723478435494701,
+    "spurious_ms": -1.5095092429604282
+   },
+   "model": {
+    "rc_r": 0.7893950672722861,
+    "dv_med_ms": 6.798838077989422,
+    "spurious_ms": -1.3181802459892165
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 30.938790734094667
+  },
+  "Kep_r0.5@snr36": {
+   "dirty": {
+    "rc_r": 0.12650914583930553,
+    "dv_med_ms": 20.378299985850155,
+    "spurious_ms": 74.62139518884142
+   },
+   "wiener": {
+    "rc_r": 0.5839134693324388,
+    "dv_med_ms": 5.026993154750192,
+    "spurious_ms": -2.19304072382708
+   },
+   "model": {
+    "rc_r": 0.8603099719712831,
+    "dv_med_ms": 5.670009552609989,
+    "spurious_ms": -1.321290806707795
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 22.38456904563446
+  }
+ },
+ "minutes": 9.277467747529348
+}

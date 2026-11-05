@@ -1,0 +1,163 @@
+{
+ "gate": "40,120,0.25",
+ "wiener2": true,
+ "infer_beam_px": 10.0,
+ "snr_est": 10.733631152486875,
+ "gate_a": 1.0,
+ "cube": "MWC_758_13CO_fiducial.image.fits",
+ "shape": [
+  301,
+  512,
+  512
+ ],
+ "pix_mas": 24.9999999999984,
+ "beam_arcsec": [
+  0.150000000045732,
+  0.14999999906628
+ ],
+ "beam_px": [
+  6.0000000018296635,
+  5.999999962651584
+ ],
+ "dv_ms": 99.99999998549391,
+ "line_free_planes": 239,
+ "line_range_kms": [
+  2.8939999847863502,
+  8.993999983901418
+ ],
+ "sigma_raw": 0.005181801505386829,
+ "residual_continuum_peak_sigma": 6.670619964599609,
+ "continuum_subtracted_by_us": false,
+ "fov": null,
+ "scale": 1.0,
+ "S1": {
+  "offline_rms_raw": 0.005181801505386829,
+  "offline_rms_den": 4.748055653180927e-05,
+  "noise_reduction": 109.13523100588169,
+  "m0_total_ratio": 1.0199998617172241,
+  "mask_px": 3044,
+  "m1_shift_bright_median_ms": 75.2004235873791,
+  "m1_shift_bright_p95_ms": 252.0874411992093
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 6.12107280906773e-05,
+  "frac_above_4sigma_den_lineplanes": 0.0
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.7739636886454017,
+  "rc_rms_raw_ms": 106.11646484574705,
+  "rc_rms_den_ms": 81.8934120710438,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "S5": {
+  "GI_r0.5@snr12": {
+   "dirty": {
+    "rc_r": 0.030119856292928158,
+    "dv_med_ms": 66.62135942803992,
+    "spurious_ms": 1327.5349192832614
+   },
+   "wiener": {
+    "rc_r": 0.5709547432445624,
+    "dv_med_ms": 28.419195111443695,
+    "spurious_ms": -23.112768347230585
+   },
+   "model": {
+    "rc_r": 0.8210287101378503,
+    "dv_med_ms": 21.520636227585364,
+    "spurious_ms": -20.211574621569177
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 49.35676454781769
+  },
+  "GI_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.0980178109359793,
+    "dv_med_ms": 36.655450979518335,
+    "spurious_ms": 438.0447216616835
+   },
+   "wiener": {
+    "rc_r": 0.7828492850723078,
+    "dv_med_ms": 20.638324317322432,
+    "spurious_ms": -18.681240819175457
+   },
+   "model": {
+    "rc_r": 0.9158513987002579,
+    "dv_med_ms": 15.596179661872572,
+    "spurious_ms": -14.645533632023202
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 31.296961004962487
+  },
+  "GI_r0.5@snr36": {
+   "dirty": {
+    "rc_r": 0.29748290420287515,
+    "dv_med_ms": 26.180180950017785,
+    "spurious_ms": 121.90058945778196
+   },
+   "wiener": {
+    "rc_r": 0.8618214304929751,
+    "dv_med_ms": 15.731614825827716,
+    "spurious_ms": -14.075993841502928
+   },
+   "model": {
+    "rc_r": 0.9448186721757401,
+    "dv_med_ms": 12.976828215623959,
+    "spurious_ms": -11.93595148411972
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 23.766899105439055
+  },
+  "Kep_r0.5@snr12": {
+   "dirty": {
+    "rc_r": -0.0009763836911089883,
+    "dv_med_ms": 53.4638464373281,
+    "spurious_ms": 1271.2223293990933
+   },
+   "wiener": {
+    "rc_r": 0.22404506571626753,
+    "dv_med_ms": 8.824172614724901,
+    "spurious_ms": 2.9169013634264207
+   },
+   "model": {
+    "rc_r": 0.6604034949970093,
+    "dv_med_ms": 8.163586257704026,
+    "spurious_ms": 0.4612471642344911
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 46.44241332334109
+  },
+  "Kep_r0.5@snr24": {
+   "dirty": {
+    "rc_r": 0.016789774561841844,
+    "dv_med_ms": 28.80624159752687,
+    "spurious_ms": 331.19462362691206
+   },
+   "wiener": {
+    "rc_r": 0.43222660802769697,
+    "dv_med_ms": 6.639656423559237,
+    "spurious_ms": -1.498074915530518
+   },
+   "model": {
+    "rc_r": 0.7987345102387932,
+    "dv_med_ms": 6.211961804919352,
+    "spurious_ms": -0.7861667638952561
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 28.609928484581214
+  },
+  "Kep_r0.5@snr36": {
+   "dirty": {
+    "rc_r": 0.12187258767739594,
+    "dv_med_ms": 20.304821708088117,
+    "spurious_ms": 79.82725812050013
+   },
+   "wiener": {
+    "rc_r": 0.5910638478143367,
+    "dv_med_ms": 4.936786740302152,
+    "spurious_ms": -2.1406873167620706
+   },
+   "model": {
+    "rc_r": 0.8601219086888686,
+    "dv_med_ms": 5.115970968458009,
+    "spurious_ms": -1.0894145012191245
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 20.677632090430052
+  }
+ },
+ "minutes": 33.2558413028717
+}

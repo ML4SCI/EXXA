@@ -1,0 +1,92 @@
+{
+ "gate": "40,120,0.25",
+ "wiener2": true,
+ "infer_beam_px": 10.0,
+ "snr_est": 18.442484395365856,
+ "gate_a": 1.0,
+ "cube": "J1604_13CO_fiducial.image.fits",
+ "shape": [
+  300,
+  512,
+  512
+ ],
+ "pix_mas": 24.9999999999984,
+ "beam_arcsec": [
+  0.14999999971626,
+  0.14999999951034
+ ],
+ "beam_px": [
+  5.999999988650783,
+  5.999999980413983
+ ],
+ "dv_ms": 100.00000000914788,
+ "line_free_planes": 271,
+ "line_range_kms": [
+  3.199999983853926,
+  5.9999999841100635
+ ],
+ "sigma_raw": 0.003929697442799807,
+ "residual_continuum_peak_sigma": 7.050334453582764,
+ "continuum": {
+  "blue_far_planes": 71,
+  "red_far_planes": 64,
+  "blue_peak_sigma": 6.001893997192383,
+  "red_peak_sigma": 5.5158772468566895,
+  "blue_peak_on_red_sigma": -0.9320954084396362,
+  "red_peak_on_blue_sigma": 2.589993476867676,
+  "blue_red_corr": 0.14070778499821254,
+  "decision": "none",
+  "reason": "no continuum on both far sides (any leftover is near the line: line wings or noise); cube kept as delivered",
+  "mode": "auto",
+  "subtracted": false
+ },
+ "fov": null,
+ "scale": 1.666666669819227,
+ "S1": {
+  "offline_rms_raw": 0.003929697442799807,
+  "offline_rms_den": 1.7544392903801054e-05,
+  "noise_reduction": 223.98594607103357,
+  "m0_total_ratio": 0.9921339750289917,
+  "mask_px": 8713,
+  "m1_shift_bright_median_ms": 41.353646576462125,
+  "m1_shift_bright_p95_ms": 116.92789831337032
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 6.318884142210562e-05,
+  "frac_above_4sigma_den_lineplanes": 0.0
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.07689394515628238,
+  "rc_rms_raw_ms": 641.6061137108038,
+  "rc_rms_den_ms": 106.75999809850269,
+  "pv": {
+   "pv_r": 0.5914432862548966,
+   "pv5_r": 0.6416875385767907,
+   "pv_rms_ms": 30.003523286666415,
+   "pv5_rms_ms": 23.940580567085156,
+   "pv_mag_ms": 9.663118146302187,
+   "pv5_mag_ms": 8.533520133386526
+  },
+  "pv_mag_raw_ms": 33.69691388215611,
+  "pv5_mag_raw_ms": 27.863208505697173,
+  "geom": {
+   "au_per_px": 3.624999999999768,
+   "incl": 6.0,
+   "mstar": 0.42909249045320397,
+   "mstar_at_bound": false,
+   "pa_deg_fit": 179.7829928830393,
+   "vsys_fit": 4.560108059039981,
+   "cx_fit": 251.99603578948506,
+   "cy_fit": 258.0000158684076,
+   "r_in_au": 43.4999999177154,
+   "r_out_au": 214.19822600322996,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.10000000000914788,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 258.1,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "minutes": 27.054669411977134
+}

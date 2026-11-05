@@ -1,0 +1,38 @@
+{
+ "geometry": {
+  "exoalma": {
+   "pa_deg_fit": 78.59843257325275,
+   "vsys_fit": 7.71212487007828,
+   "mstar": 1.2296268942778181
+  },
+  "dsharp": {
+   "pa_deg_fit": 75.08415196480485,
+   "vsys_fit": 7.627941275639332,
+   "mstar": 1.5626622460299036
+  }
+ },
+ "r_au": [
+  50.09998331493648,
+  152.06399999998482
+ ],
+ "rc_raw": {
+  "exo_vs_ds_median_abs_ms": 325.60018795258696,
+  "exo_vs_pub_ms": 108.38875520187075,
+  "ds_vs_pub_ms": 488.7069562660189,
+  "substructure_r_exo_vs_ds": 0.2044419078933142
+ },
+ "rc_den": {
+  "exo_vs_ds_median_abs_ms": 292.3715383773453,
+  "exo_vs_pub_ms": 72.61422588404676,
+  "ds_vs_pub_ms": 354.4155178756787,
+  "substructure_r_exo_vs_ds": 0.8034496970713908
+ },
+ "pv_raw": {
+  "r_same_halves": -0.06023455041079573,
+  "r_swapped_halves": 0.09983276817979429
+ },
+ "pv_den": {
+  "r_same_halves": 0.11920653995041612,
+  "r_swapped_halves": -0.005301614928827636
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "original_S6": {
+  "rc_r_denoised_vs_raw": 0.9657670754750058,
+  "rc_rms_raw_ms": 1150.9075239177125,
+  "rc_rms_den_ms": 1160.7541706279392,
+  "pv": {
+   "pv_r": NaN,
+   "pv5_r": NaN,
+   "pv_rms_ms": NaN,
+   "pv5_rms_ms": NaN,
+   "pv_mag_ms": NaN,
+   "pv5_mag_ms": NaN
+  },
+  "pv_mag_raw_ms": NaN,
+  "pv5_mag_raw_ms": NaN,
+  "geom": {
+   "au_per_px": 2.4499999999998434,
+   "incl": 31.9,
+   "mstar": 49.999999548726514,
+   "mstar_at_bound": true,
+   "pa_deg_fit": 167.72281669781142,
+   "vsys_fit": 9.635377803856088,
+   "cx_fit": 301.99106603299634,
+   "cy_fit": 287.62926860992616,
+   "r_in_au": 29.400000017388336,
+   "r_out_au": 191.29984980501308,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.10000000000914788,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 189.0,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "refit_S6": {
+  "rc_r_denoised_vs_raw": 0.3115559992250685,
+  "rc_rms_raw_ms": 138.97828057733122,
+  "rc_rms_den_ms": 53.303375369884655,
+  "pv": {
+   "pv_r": -0.8231009421143138,
+   "pv5_r": 0.7535909734162163,
+   "pv_rms_ms": 55.154615054228984,
+   "pv5_rms_ms": 66.65627006625182,
+   "pv_mag_ms": 3.3944885390167827,
+   "pv5_mag_ms": 66.15920651640465
+  },
+  "pv_mag_raw_ms": 51.5805540607238,
+  "pv5_mag_raw_ms": 83.10554888336198,
+  "geom": {
+   "au_per_px": 2.4499999999998434,
+   "incl": 31.9,
+   "mstar": 1.2079991117756397,
+   "mstar_at_bound": false,
+   "pa_deg_fit": 99.49768338592139,
+   "fit_cost": 82.71068509068647,
+   "vsys_fit": 3.9659864000446667,
+   "cx_fit": 256.39338301395316,
+   "cy_fit": 256.26450312180674,
+   "r_in_au": 29.400000017388336,
+   "r_out_au": 58.11461970927954,
+   "n_tracks": 40,
+   "n_spine_channels": 20,
+   "dv_kms": 0.10000000000914788,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 189.0,
+  "pa_inits": [
+   279.0,
+   99.0
+  ],
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ }
+}

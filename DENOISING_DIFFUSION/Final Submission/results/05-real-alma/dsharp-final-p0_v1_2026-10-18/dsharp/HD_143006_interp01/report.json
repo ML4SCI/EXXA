@@ -1,0 +1,238 @@
+{
+ "gate": "40,120,0.25",
+ "wiener2": true,
+ "infer_beam_px": 10.0,
+ "snr_est": 7.694643781334708,
+ "gate_a": 1.0,
+ "cube": "HD143006_CO.fits",
+ "shape": [
+  65,
+  512,
+  512
+ ],
+ "pix_mas": 3.9999999999996003,
+ "beam_arcsec": [
+  0.06589923053979599,
+  0.049131482839596
+ ],
+ "beam_px": [
+  16.474807634950643,
+  12.282870709900228
+ ],
+ "dv_ms": 320.0000000483532,
+ "line_free_planes": 40,
+ "line_range_kms": [
+  0.19999997624888263,
+  7.879999977409363
+ ],
+ "sigma_raw": 0.0011241590837016702,
+ "residual_continuum_peak_sigma": 16.884403228759766,
+ "continuum": {
+  "blue_far_planes": 5,
+  "red_far_planes": 15,
+  "blue_peak_sigma": 6.004401206970215,
+  "red_peak_sigma": 11.58933162689209,
+  "blue_peak_on_red_sigma": -1.2347023487091064,
+  "red_peak_on_blue_sigma": 1.0498994588851929,
+  "blue_red_corr": 0.015012822487932731,
+  "decision": "none",
+  "reason": "no continuum on both far sides (any leftover is near the line: line wings or noise); cube kept as delivered",
+  "mode": "auto",
+  "subtracted": false
+ },
+ "fov": null,
+ "scale": 1.0,
+ "S1": {
+  "offline_rms_raw": 0.0011241590837016702,
+  "offline_rms_den": 0.000513646169565618,
+  "noise_reduction": 2.1885865218314637,
+  "m0_total_ratio": 1.0062389373779297,
+  "mask_px": 5684,
+  "m1_shift_bright_median_ms": 147.74608375874544,
+  "m1_shift_bright_p95_ms": 1549.6527917342505
+ },
+ "S2": {
+  "frac_above_4sigma_raw_lineplanes": 0.004718780517578125,
+  "frac_above_4sigma_den_lineplanes": 0.0036454200744628906
+ },
+ "S6": {
+  "rc_r_denoised_vs_raw": 0.8440874874427706,
+  "rc_rms_raw_ms": 183.9061839295083,
+  "rc_rms_den_ms": 133.97566653698811,
+  "pv": {
+   "pv_r": 0.8101947311370159,
+   "pv5_r": 0.8753858953167887,
+   "pv_rms_ms": 53.52638556730217,
+   "pv5_rms_ms": 36.464874764412,
+   "pv_mag_ms": 11.496591349248302,
+   "pv5_mag_ms": 12.375604704121002
+  },
+  "pv_mag_raw_ms": 57.01638985555009,
+  "pv5_mag_raw_ms": 43.64044464761906,
+  "geom": {
+   "au_per_px": 0.6599999999999341,
+   "incl": 18.6,
+   "mstar": 1.5626622460299036,
+   "mstar_at_bound": false,
+   "pa_deg_fit": 75.08415196480485,
+   "vsys_fit": 7.627941275639332,
+   "cx_fit": 256.00003530560605,
+   "cy_fit": 266.0000433405603,
+   "r_in_au": 21.746746078132677,
+   "r_out_au": 44.93772178301022,
+   "n_tracks": 12,
+   "n_spine_channels": 6,
+   "dv_kms": 0.32000000004835316,
+   "seen_in_training": []
+  },
+  "pa_lit_deg": 169.0,
+  "note": "raw is the reference here (no truth): correlation of the denoised residual with the RAW residual"
+ },
+ "S5": {
+  "GI_r0.5@snr6": {
+   "dirty": {
+    "rc_r": -0.13058886534334452,
+    "dv_med_ms": 36.397047048346344,
+    "spurious_ms": 1339.0670956988056
+   },
+   "wiener": {
+    "rc_r": -0.16107813165443322,
+    "dv_med_ms": 25.354463759915458,
+    "spurious_ms": 991.8563158956076
+   },
+   "model": {
+    "rc_r": -0.19558726737567397,
+    "dv_med_ms": 23.98077965145068,
+    "spurious_ms": 907.0011073311938
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 13.863954546162184
+  },
+  "GI_r0.5@snr8": {
+   "dirty": {
+    "rc_r": -0.14869410039998815,
+    "dv_med_ms": 26.107482914101173,
+    "spurious_ms": 1115.552928226164
+   },
+   "wiener": {
+    "rc_r": -0.18270115987942698,
+    "dv_med_ms": 19.1590301721436,
+    "spurious_ms": 810.3505443450271
+   },
+   "model": {
+    "rc_r": -0.20589106771076768,
+    "dv_med_ms": 18.829364779456625,
+    "spurious_ms": 790.6719642187529
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 9.416179658405133
+  },
+  "GI_r0.5@snr12": {
+   "dirty": {
+    "rc_r": -0.16657433689848403,
+    "dv_med_ms": 16.970014574707815,
+    "spurious_ms": 896.0925110022935
+   },
+   "wiener": {
+    "rc_r": -0.18413628624638925,
+    "dv_med_ms": 11.961002351660754,
+    "spurious_ms": 628.0348568957337
+   },
+   "model": {
+    "rc_r": -0.1878500564255981,
+    "dv_med_ms": 13.390226366159052,
+    "spurious_ms": 675.5770041867285
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 6.1064720163035435
+  },
+  "GI_r0.5@snr24": {
+   "dirty": {
+    "rc_r": -0.14299565896568942,
+    "dv_med_ms": 8.401553632098269,
+    "spurious_ms": 587.5954660477107
+   },
+   "wiener": {
+    "rc_r": -0.12517120794333456,
+    "dv_med_ms": 5.774536133684949,
+    "spurious_ms": 423.171161980159
+   },
+   "model": {
+    "rc_r": -0.14551564290212726,
+    "dv_med_ms": 7.571601868819888,
+    "spurious_ms": 484.68311234647473
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 3.3385658269204646
+  },
+  "Kep_r0.5@snr6": {
+   "dirty": {
+    "rc_r": -0.19596669258150706,
+    "dv_med_ms": 35.15562773282066,
+    "spurious_ms": 1371.2831577291358
+   },
+   "wiener": {
+    "rc_r": -0.27506634648706657,
+    "dv_med_ms": 31.897439961484807,
+    "spurious_ms": 1031.699237472629
+   },
+   "model": {
+    "rc_r": -0.29186917539854346,
+    "dv_med_ms": 23.662526015042484,
+    "spurious_ms": 942.1005083748316
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 13.432899715545954
+  },
+  "Kep_r0.5@snr8": {
+   "dirty": {
+    "rc_r": -0.21619563987770415,
+    "dv_med_ms": 25.22749781989786,
+    "spurious_ms": 1165.8595105721183
+   },
+   "wiener": {
+    "rc_r": -0.29326326754303356,
+    "dv_med_ms": 23.534936908463422,
+    "spurious_ms": 851.8857970113622
+   },
+   "model": {
+    "rc_r": -0.2929988987962346,
+    "dv_med_ms": 18.613471987675823,
+    "spurious_ms": 827.5183626280937
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 8.764252663982841
+  },
+  "Kep_r0.5@snr12": {
+   "dirty": {
+    "rc_r": -0.23258617483997587,
+    "dv_med_ms": 16.464433672531754,
+    "spurious_ms": 948.2602387636327
+   },
+   "wiener": {
+    "rc_r": -0.28748463067602753,
+    "dv_med_ms": 13.815641405285684,
+    "spurious_ms": 675.2989940782894
+   },
+   "model": {
+    "rc_r": -0.2849854494186583,
+    "dv_med_ms": 13.181810381020064,
+    "spurious_ms": 707.6288704022131
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 5.40633201680818
+  },
+  "Kep_r0.5@snr24": {
+   "dirty": {
+    "rc_r": -0.21714460916955622,
+    "dv_med_ms": 8.131048680580344,
+    "spurious_ms": 623.1492586693679
+   },
+   "wiener": {
+    "rc_r": -0.22405275017620566,
+    "dv_med_ms": 5.569825173266096,
+    "spurious_ms": 465.21493150722586
+   },
+   "model": {
+    "rc_r": -0.24700772391808917,
+    "dv_med_ms": 7.537590564436147,
+    "spurious_ms": 512.2663374132431
+   },
+   "m1_shift_model_vs_dirty_bright_median_ms": 2.961788177937769
+  }
+ },
+ "minutes": 17.205336618423463
+}

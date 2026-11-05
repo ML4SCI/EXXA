@@ -1,0 +1,55 @@
+{
+ "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+ "commit": "06b549ecc4314b708377a4c0b13e7253b2e59886",
+ "torch": "2.11.0+cu128",
+ "cuda": true,
+ "checkpoints": [
+  "/kaggle/input/notebooks/deepsceneloc/unified-r4n-k15-long/unified_wiener_k15/unified_r4n_k15_long.pth",
+  "/kaggle/input/notebooks/aditisah11/unified-r4n-k15-long-s11/unified_wiener_k15/unified_r4n_k15_long_s11.pth",
+  "/kaggle/input/notebooks/chiragbhayal/unified-r4n-k15-long-s23/unified_wiener_k15/unified_r4n_k15_long_s23.pth",
+  "/kaggle/input/notebooks/chiragbhayal17/unified-r8-m1-r6/unified_wiener_k15/unified_r8_m1_r6.pth"
+ ],
+ "elapsed_min": 41.0,
+ "runs": {
+  "MWC_758_13CO": {
+   "exit": 0,
+   "download_s": 14,
+   "run_min": 26.3,
+   "args": [
+    "--crop",
+    "512",
+    "--target-beam-px",
+    "10",
+    "--incl",
+    "19.4",
+    "--dist",
+    "156",
+    "--pa",
+    "240.3"
+   ],
+   "cube_mb": 1263
+  },
+  "AS_209_CO": {
+   "exit": 0,
+   "download_s": 5,
+   "run_min": 13.6,
+   "args": [
+    "--crop",
+    "768",
+    "--target-beam-px",
+    "10",
+    "--max-scaled-px",
+    "1024",
+    "--spec-interp",
+    "0.1",
+    "--incl",
+    "34.97",
+    "--dist",
+    "121",
+    "--pa",
+    "85.76"
+   ],
+   "cube_mb": 540
+  }
+ }
+}
