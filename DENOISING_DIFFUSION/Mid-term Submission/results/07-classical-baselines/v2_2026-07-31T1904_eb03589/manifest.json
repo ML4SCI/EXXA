@@ -1,0 +1,22 @@
+{
+  "notebook": "07-classical-baselines",
+  "recovered_from_git": true,
+  "kaggle_version": 2,
+  "code_commit": "eb03589",
+  "kaggle_push_commit": "7dbd17b",
+  "utc": "2026-07-31T19:04Z",
+  "headline": "M0 +69.8% (V12) vs +11.7% (best classical, gaussian sigma=4.0) -> +58.1 pp",
+  "caveat": "SUPERSEDED. Filters were tuned at 256 px and applied at 600 px, and the optimum sat on the edge of the sigma grid. Both handicapped the classical side, so this gap is an overstatement. Needs a ~10 min CPU re-run at native resolution (be7d79d widened the grid and tunes at the evaluation resolution).",
+  "files": {
+    "classical_vs_learned_moments.png": {
+      "bytes": 49613,
+      "sha256_16": "6fd0da4d22c3fcec",
+      "provenance": "recovered from 7dbd17b (notebook display copy, not the savefig artifact)"
+    },
+    "run_log.txt": {
+      "bytes": 7805,
+      "sha256_16": "87a3112e8c114892",
+      "provenance": "recovered from 7dbd17b (notebook display copy, not the savefig artifact)"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+# EXXA Core Requirements
+# Common dependencies shared across multiple subprojects
+# Install with: pip install -r requirements.txt
+
+# Core Scientific Computing
+# numpy>=2.0 is REQUIRED, not merely preferred: bettermoments 1.10 calls
+# np.trapezoid (the numpy-2.0 rename of np.trapz), so the whole moment-map
+# evaluation path raises AttributeError on numpy 1.x. The previous >=1.24.0 bound
+# permitted that broken combination -- installing bettermoments can even pull numpy
+# back to 1.26. No code here uses any numpy-1.x-only alias, so the floor is safe.
+numpy>=2.0.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+scikit-image>=0.20.0
+
+# Deep Learning - PyTorch
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch-lightning>=2.0.0
+
+# Data Handling
+h5py>=3.8.0
+# astropy>=6.1 is the first release that accepts numpy 2.x; 6.0.x pins numpy<2 and
+# therefore cannot coexist with bettermoments (see the numpy note above). The old
+# >=5.3.0 bound allowed pip to resolve a mutually unsatisfiable environment.
+# Requires Python >=3.10, which Kaggle satisfies.
+astropy>=6.1.0
+Pillow>=9.0.0
+
+# Denoising / line-emission pipeline
+pytorch-msssim>=1.0.0   # SSIM term in HybridLoss
+bettermoments>=1.10.0   # moment maps (Moment 0/1/2) for line-emission evaluation
+
+# Jupyter & Visualization
+jupyter>=1.0.0
+ipykernel>=6.0.0
+plotly>=5.0.0
+seaborn>=0.12.0
+
+# Experiment Tracking
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Code Quality (Development)
+pytest>=7.3.0
+black>=23.0.0
+flake8>=6.0.0
+pre-commit>=3.3.0
+
+# Optional: Uncomment if working with specific subprojects
+# transformers>=4.30.0  # For Anomaly Detection
+# diffusers>=0.21.0     # For Denoising Diffusion
+# escnn>=1.0.0          # For Equivariant Networks

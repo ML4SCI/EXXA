@@ -1,0 +1,70 @@
+{
+  "notebook": "06-ddpm-line-emission",
+  "utc": "2026-08-12T04:50:41Z",
+  "git_sha": "19efd47",
+  "kaggle_version": null,
+  "kaggle_run_type": "Batch",
+  "on_kaggle": true,
+  "python": "3.12.13",
+  "files": {
+    "ddpm_line_emission_loss.png": {
+      "bytes": 48702,
+      "sha256_16": "410e85d2fe71d4ba",
+      "source": "../results/ddpm_line_emission_loss.png"
+    },
+    "ddpm_moment_maps.npz": {
+      "bytes": 14202163,
+      "sha256_16": "ae9ae7dfabb7d34a",
+      "source": "../results/ddpm_moment_maps.npz"
+    },
+    "ddpm_moment_maps.png": {
+      "bytes": 865838,
+      "sha256_16": "3aa3c6eff7ea047c",
+      "source": "../results/ddpm_moment_maps.png"
+    },
+    "ddpm_objective_sweep.csv": {
+      "bytes": 391,
+      "sha256_16": "3f7eb25501622aa2",
+      "source": "../results/ddpm_objective_sweep.csv"
+    },
+    "ddpm_seed_repeats.csv": {
+      "bytes": 162,
+      "sha256_16": "8c6458b017b0b679",
+      "source": "../results/ddpm_seed_repeats.csv"
+    },
+    "line_emission_ddpm_comparison.png": {
+      "bytes": 1869235,
+      "sha256_16": "4655b51411bf368b",
+      "source": "../experiments/line_emission_ddpm_comparison.png"
+    },
+    "moment_map_holdout_summary_ddpm.csv": {
+      "bytes": 609,
+      "sha256_16": "69ded803870cd938",
+      "source": "../results/moment_map_holdout_summary_ddpm.csv"
+    },
+    "moment_map_holdout_summary_ddpm.png": {
+      "bytes": 63161,
+      "sha256_16": "ee19cbbdb35ece3f",
+      "source": "../results/moment_map_holdout_summary_ddpm.png"
+    }
+  },
+  "missing_patterns": [
+    "moment_map_holdout_baseline_ddpm.csv"
+  ],
+  "extra": {
+    "objective": {
+      "prediction_type": "v",
+      "beta_schedule": "cosine",
+      "min_snr_gamma": 0.0
+    },
+    "epochs": 60,
+    "seeds": [
+      42
+    ],
+    "sampling_steps": 25,
+    "k_avg": 4,
+    "sweep_epochs": 12,
+    "target_size": 256,
+    "tiled_native": false
+  }
+}
